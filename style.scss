@@ -1,0 +1,475 @@
+$primaryColor: #000;
+$secondaryColor: #fff;
+$thirdColor: #4d636f;
+$fourthColor: #dfe5e8;
+$fifthColor: #f5f7f8;
+$sixthColor: #eee;
+$seventhColor: #607d8b;
+$eightthColor: #7d97a5;
+$ninthColor: #303e45;
+$tenthColor: #becbd2;
+$eleventhColor: #ccc;
+$twelvethColor: #4CAF50;
+$thirteenColor: #f44336;
+$fourteenColor: #435761;
+
+
+
+
+
+$fontWeight: (
+    "light": 300,
+    "regular": 500,
+    "bold": 700, 
+);
+
+
+/****************************All*************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: $fifthColor;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.innerContainer {
+    padding: 20px 15px;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid $sixthColor;
+    margin: 15px 0;
+}
+
+.type1TagDesgin {
+    padding: 0 8px;
+    text-align: center;
+    background-color: $ninthColor;
+    color: $secondaryColor;
+    font-size: 12px;
+}
+
+.type2TagDesign {
+    padding: 0 8px;
+    text-align: center;
+    background-color: $thirdColor;
+    color: $secondaryColor;
+    font-size: 12px;
+}
+
+.type3TagDesign {
+    padding: 0 8px;
+    text-align: center;
+    background-color: $seventhColor;
+    color: $secondaryColor;
+    font-size: 12px;
+}
+
+.type4TagDesign {
+    padding: 0 8px;
+    text-align: center;
+    background-color: $eightthColor;
+    color: $primaryColor;
+    font-size: 12px;
+}
+
+.postButton {
+    background-color: $seventhColor;
+    color: $secondaryColor;
+    border: none;
+    padding: 10px 15px;
+}
+
+.greenButton {
+    background-color: $twelvethColor;
+    opacity: 0.6;
+    color: $secondaryColor;
+    border: none;
+    padding: 10px 10px;
+}
+
+.redButton {
+    background-color: $thirteenColor;
+    opacity: 0.6;
+    color: $secondaryColor;
+    border: none;
+    padding: 10px 10px;
+}
+
+/****************************All*************************/
+
+
+.headerDesign {
+    background-color: $thirdColor;
+    .headerNavbarDesign {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbarMenuDivisionDesign {
+         
+            .menuDesign {
+                a {
+                    text-decoration: none;
+                    color: $secondaryColor;
+                    i {
+                        color: $secondaryColor;
+                        padding: 20px 20px;
+                    }
+                }
+            }
+        }
+        .menuProfileIconSection {
+        
+            a {
+
+                img {
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+.mainDesign {
+    margin-top: 25px;
+    display: flex;
+    .leftSidebarDeign {
+        width: 25%;
+        margin-right: 10px;
+        .userInfoSection {
+            background-color: $secondaryColor;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            border-radius: 3px;
+            h4 {
+                text-align: center;
+                margin: 15px 15px;
+                font-size: 20px;
+                font-weight: map-get($fontWeight, "regular");
+            }
+            p {
+                margin: 25px 0;
+                font-size: 15px;
+                line-height: 1.5;
+                font-weight: map-get($fontWeight, "regular");
+                i {
+                    color: $seventhColor;
+                    margin-right: 10px;
+                }
+            }
+
+            .userInfoSectionProfilePicture {
+                text-align: center;
+
+                img {
+                    width: 106px;
+                    height: 106px;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .socailPlatformFeatures {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            button {
+                background-color: $eightthColor;
+                border: none;
+                padding: 10px 15px;
+                color: $secondaryColor;
+                text-align: left;
+                font-size: 15px;
+                i {
+                    margin-right: 15px;
+                    width: 15px;
+                    height: 15px;
+                    font-size: 18px;
+                }
+            }
+        }
+        .interestsTagsSection {
+            background-color: $secondaryColor;
+            margin-top: 25px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            border-radius: 3px;
+            .interestsTagsSectionTtile {
+                margin-bottom: 25px;
+            }
+        }
+        .whoIsWatchingMe {
+            background-color: $fourthColor;
+            margin-top: 25px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            position: relative;
+            border-radius: 3px;
+            .greetingTxt {
+                margin-top: -5px;
+            }
+            .crossIcon {
+                position: absolute;
+                right: 0;
+                top: 0;
+                i {
+                    background-color: $tenthColor;
+                    padding: 10px 15px;
+                }
+            }
+            .whoIsDescription {
+                margin-top: 15px;
+                font-size: 15px;
+            }
+        }
+    }
+    .socialTemplateMainContent {
+        width: 60%;
+        margin: 0 10px 0 10px;
+        .statusSection {
+            background-color: $secondaryColor;
+            margin-bottom: 25px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            h6 {
+                opacity: 0.60;
+                font-size: 16px;
+                font-weight: map-get($fontWeight, "regular");
+                margin-bottom: 10px;
+            }
+            .statusField {
+                border: 1px solid $eleventhColor;
+                margin: 15px 0;
+                padding: 10px 15px;
+            }
+
+        }
+        .firstHomeFeed {
+            background-color: $secondaryColor;
+            margin-bottom: 25px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            .firstFeederDetail {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                img {
+                    width: 60px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+                h4 {
+                    font-weight: map-get($fontWeight, "regular");
+                    font-size: 20px;
+                }
+            }
+            .feeder1Description {
+                line-height: 1.5;
+                font-size: 15px;
+            }
+            .picturesOfFeedSection {
+                display: flex;
+                margin: 15px -05px;
+                .feeder1Pictures {
+                    width: 50%;
+                    padding: 0 5px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .buttonsSection {
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+        .secondHomeFeed {
+            background-color: $secondaryColor;
+            margin-bottom: 25px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            .secondFeederDetail {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 60px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+                h4 {
+                    font-size: 20px;
+                    font-weight: map-get($fontWeight, "regular");
+                }
+            }
+            .feeder2Description {
+                line-height: 1.5;
+                font-size: 15px;
+                margin-bottom: 15px;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
+        .thirdHomeFeed {
+            background-color: $secondaryColor;
+            margin-bottom: 25px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            .thirdFeederDetail {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 64px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+                h4 {
+                    font-size: 20px;
+                    font-weight: map-get($fontWeight, "regular");
+                }
+            }
+            .feeder3Description1 {
+                font-size: 15px;
+                line-height: 1.5;
+                margin: 15px 0;
+            }
+            .feedPicture {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .feeder3Description2 {
+                font-size: 15px;
+                line-height: 1.5;
+                margin: 15px 0;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+    .rightSidebarDesign {
+        width: 15%;
+        margin-left: 10px;
+        .eventsSectionDesign {
+            background-color: $secondaryColor;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            .eventsSectionTitle {
+                margin-bottom: 10px;
+                text-align: center;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+            img {
+                width: 100%;
+            }
+            .dayDetail {
+                margin: 10px 0;
+                text-align: center;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+            .timeOfDetail {
+                margin: 10px 0;
+                text-align: center;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+            .eventButtonSection {
+                text-align: center;
+
+                .eventButtonDesign {
+                    background-color: $fourthColor;
+                    width: 100%;
+                    padding: 10px 10px;
+                    border: none;
+                }
+            }
+        }
+        .freindRequestsSectionDesign {
+            background-color: $secondaryColor;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            text-align: center;
+            .friendRequestSectionTitle {
+                margin: 10px 0;
+                line-height: 1.5;
+                font-size: 15px;
+            }
+            img {
+                width: 50%;
+            }
+            .friendNameRequest {
+                font-size: 15px;
+                line-height: 1.5;
+            }
+            .buttonsSection {
+                display: flex;
+                justify-content: center;
+                margin: 15px 0;
+                .eachButtonDivisionDesign {
+                    width: 50%;
+                    .eachButtonDesign {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .advertisementSectionDesign {
+            background-color: $secondaryColor;
+            margin-bottom: 10px;
+            padding: 15px 0;
+            text-align: center;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            p {
+                margin: 10px 0;
+                font-size: 15px;
+                line-height: 1.5;
+            }
+        }
+        .otherFeatureSectionDesign {
+            background-color: $secondaryColor;
+            padding: 15px 0;
+            text-align: center;
+            border-radius: 3px;
+            box-shadow: 1px 2px 5px 2px #ccc;
+            p {
+                margin: 10px 0;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+.footerMainDesign {
+    
+    .footerFirstSection {
+        background-color: $fourteenColor;
+        padding: 25px 25px;
+        p {
+            color: $secondaryColor;
+        }
+    }
+    .footerSecondSection {
+        background-color: $ninthColor;
+        padding: 25px 25px;
+        p {
+            color: $secondaryColor;
+        }
+    }
+}

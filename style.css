@@ -1,0 +1,544 @@
+/****************************All*************************/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f5f7f8;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.innerContainer {
+  padding: 20px 15px;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #eee;
+  margin: 15px 0;
+}
+
+.type1TagDesgin {
+  padding: 0 8px;
+  text-align: center;
+  background-color: #303e45;
+  color: #fff;
+  font-size: 12px;
+}
+
+.type2TagDesign {
+  padding: 0 8px;
+  text-align: center;
+  background-color: #4d636f;
+  color: #fff;
+  font-size: 12px;
+}
+
+.type3TagDesign {
+  padding: 0 8px;
+  text-align: center;
+  background-color: #607d8b;
+  color: #fff;
+  font-size: 12px;
+}
+
+.type4TagDesign {
+  padding: 0 8px;
+  text-align: center;
+  background-color: #7d97a5;
+  color: #000;
+  font-size: 12px;
+}
+
+.postButton {
+  background-color: #607d8b;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+}
+
+.greenButton {
+  background-color: #4CAF50;
+  opacity: 0.6;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+}
+
+.redButton {
+  background-color: #f44336;
+  opacity: 0.6;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+}
+
+/****************************All*************************/
+.headerDesign {
+  background-color: #4d636f;
+}
+
+.headerDesign .headerNavbarDesign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerDesign .headerNavbarDesign .navbarMenuDivisionDesign .menuDesign a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.headerDesign .headerNavbarDesign .navbarMenuDivisionDesign .menuDesign a i {
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.headerDesign .headerNavbarDesign .menuProfileIconSection a img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.mainDesign {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainDesign .leftSidebarDeign {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.mainDesign .leftSidebarDeign .userInfoSection {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+  border-radius: 3px;
+}
+
+.mainDesign .leftSidebarDeign .userInfoSection h4 {
+  text-align: center;
+  margin: 15px 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mainDesign .leftSidebarDeign .userInfoSection p {
+  margin: 25px 0;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.mainDesign .leftSidebarDeign .userInfoSection p i {
+  color: #607d8b;
+  margin-right: 10px;
+}
+
+.mainDesign .leftSidebarDeign .userInfoSection .userInfoSectionProfilePicture {
+  text-align: center;
+}
+
+.mainDesign .leftSidebarDeign .userInfoSection .userInfoSectionProfilePicture img {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+}
+
+.mainDesign .leftSidebarDeign .socailPlatformFeatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .leftSidebarDeign .socailPlatformFeatures button {
+  background-color: #7d97a5;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+}
+
+.mainDesign .leftSidebarDeign .socailPlatformFeatures button i {
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  font-size: 18px;
+}
+
+.mainDesign .leftSidebarDeign .interestsTagsSection {
+  background-color: #fff;
+  margin-top: 25px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+  border-radius: 3px;
+}
+
+.mainDesign .leftSidebarDeign .interestsTagsSection .interestsTagsSectionTtile {
+  margin-bottom: 25px;
+}
+
+.mainDesign .leftSidebarDeign .whoIsWatchingMe {
+  background-color: #dfe5e8;
+  margin-top: 25px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+  position: relative;
+  border-radius: 3px;
+}
+
+.mainDesign .leftSidebarDeign .whoIsWatchingMe .greetingTxt {
+  margin-top: -5px;
+}
+
+.mainDesign .leftSidebarDeign .whoIsWatchingMe .crossIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.mainDesign .leftSidebarDeign .whoIsWatchingMe .crossIcon i {
+  background-color: #becbd2;
+  padding: 10px 15px;
+}
+
+.mainDesign .leftSidebarDeign .whoIsWatchingMe .whoIsDescription {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.mainDesign .socialTemplateMainContent {
+  width: 60%;
+  margin: 0 10px 0 10px;
+}
+
+.mainDesign .socialTemplateMainContent .statusSection {
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .socialTemplateMainContent .statusSection h6 {
+  opacity: 0.60;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.mainDesign .socialTemplateMainContent .statusSection .statusField {
+  border: 1px solid #ccc;
+  margin: 15px 0;
+  padding: 10px 15px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed {
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .firstFeederDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .firstFeederDetail img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .firstFeederDetail h4 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .feeder1Description {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .picturesOfFeedSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 15px -05px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .picturesOfFeedSection .feeder1Pictures {
+  width: 50%;
+  padding: 0 5px;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .picturesOfFeedSection .feeder1Pictures img {
+  width: 100%;
+}
+
+.mainDesign .socialTemplateMainContent .firstHomeFeed .buttonsSection i {
+  margin-right: 5px;
+}
+
+.mainDesign .socialTemplateMainContent .secondHomeFeed {
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .socialTemplateMainContent .secondHomeFeed .secondFeederDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainDesign .socialTemplateMainContent .secondHomeFeed .secondFeederDetail img {
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.mainDesign .socialTemplateMainContent .secondHomeFeed .secondFeederDetail h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mainDesign .socialTemplateMainContent .secondHomeFeed .feeder2Description {
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.mainDesign .socialTemplateMainContent .secondHomeFeed i {
+  margin-right: 5px;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed {
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .thirdFeederDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .thirdFeederDetail img {
+  width: 64px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .thirdFeederDetail h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .feeder3Description1 {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .feedPicture {
+  width: 100%;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .feedPicture img {
+  width: 100%;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed .feeder3Description2 {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.mainDesign .socialTemplateMainContent .thirdHomeFeed i {
+  margin-right: 5px;
+}
+
+.mainDesign .rightSidebarDesign {
+  width: 15%;
+  margin-left: 10px;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign .eventsSectionTitle {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign img {
+  width: 100%;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign .dayDetail {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign .timeOfDetail {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign .eventButtonSection {
+  text-align: center;
+}
+
+.mainDesign .rightSidebarDesign .eventsSectionDesign .eventButtonSection .eventButtonDesign {
+  background-color: #dfe5e8;
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign {
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+  text-align: center;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign .friendRequestSectionTitle {
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign img {
+  width: 50%;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign .friendNameRequest {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign .buttonsSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 0;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign .buttonsSection .eachButtonDivisionDesign {
+  width: 50%;
+}
+
+.mainDesign .rightSidebarDesign .freindRequestsSectionDesign .buttonsSection .eachButtonDivisionDesign .eachButtonDesign {
+  width: 100%;
+}
+
+.mainDesign .rightSidebarDesign .advertisementSectionDesign {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .rightSidebarDesign .advertisementSectionDesign p {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mainDesign .rightSidebarDesign .otherFeatureSectionDesign {
+  background-color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 5px 2px #ccc;
+          box-shadow: 1px 2px 5px 2px #ccc;
+}
+
+.mainDesign .rightSidebarDesign .otherFeatureSectionDesign p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.footerMainDesign .footerFirstSection {
+  background-color: #435761;
+  padding: 25px 25px;
+}
+
+.footerMainDesign .footerFirstSection p {
+  color: #fff;
+}
+
+.footerMainDesign .footerSecondSection {
+  background-color: #303e45;
+  padding: 25px 25px;
+}
+
+.footerMainDesign .footerSecondSection p {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
